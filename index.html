@@ -6,73 +6,129 @@
     <title>Cachurros - Your Digital Personal Assistant</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 font-sans">
-    <header class="bg-blue-600 text-white p-4">
-        <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold">Cachurros</h1>
-            <nav>
-                <ul class="flex space-x-4">
-                    <li><a href="#features" class="hover:text-blue-200">Features</a></li>
-                    <li><a href="#about" class="hover:text-blue-200">About</a></li>
-                    <li><a href="#contact" class="hover:text-blue-200">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main class="container mx-auto mt-8 px-4">
-        <section class="text-center mb-12">
-            <h2 class="text-4xl font-bold mb-4">Your Personal Digital Assistant</h2>
-            <p class="text-xl text-gray-600 mb-4">Simplify your life with Cachurros - your WhatsApp-based personal assistant</p>
-            <p class="text-gray-600">Your privacy and consent matter. We strictly follow WhatsApp's business guidelines to ensure a secure and transparent service.</p>
-        </section>
-
-        <section id="features" class="mb-12">
-            <h3 class="text-2xl font-semibold mb-6">What Cachurros Can Do For You</h3>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h4 class="text-xl font-semibold mb-2">Schedule Appointments</h4>
-                    <p>Manage your calendar efficiently with our 24-hour response window. We'll only send you relevant scheduling updates that you've consented to receive.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h4 class="text-xl font-semibold mb-2">Organize Notes</h4>
-                    <p>Keep your thoughts organized with our secure note-taking feature. Your data is protected and never shared with third parties.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h4 class="text-xl font-semibold mb-2">Set Reminders</h4>
-                    <p>Receive timely reminders through WhatsApp. Easy opt-out available at any time - just send us a message.</p>
+<body class="bg-white font-sans">
+    <!-- Navigation -->
+    <nav class="border-b border-gray-200 bg-white">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-gray-800">Cachurros</div>
+                <div class="flex items-center space-x-8">
+                    <a href="#features" class="text-gray-600 hover:text-gray-800">Features</a>
+                    <a href="#integrations" class="text-gray-600 hover:text-gray-800">Integrations</a>
+                    <a href="#contact" class="text-gray-600 hover:text-gray-800">Contact</a>
+                    <button class="bg-yellow-400 px-4 py-2 rounded-md font-medium hover:bg-yellow-500 transition-colors">Get Started</button>
                 </div>
             </div>
-        </section>
+        </div>
+    </nav>
 
-        <section id="about" class="mb-12">
-            <h3 class="text-2xl font-semibold mb-4">About Cachurros</h3>
-            <p class="text-gray-600 mb-4">Cachurros is your trusted WhatsApp-based personal assistant. We maintain the highest standards of privacy and data protection, following all WhatsApp Business policies and guidelines.</p>
-            <p class="text-gray-600 mb-4">Our service operates through official WhatsApp Business channels, ensuring:</p>
-            <ul class="list-disc pl-6 text-gray-600 mb-4">
-                <li>Clear consent-based messaging</li>
-                <li>24-hour response window compliance</li>
-                <li>Secure data handling</li>
-                <li>Easy opt-out options</li>
-            </ul>
-            <p class="text-gray-600">We respect your privacy and only use your information to provide the specific services you've requested.</p>
-        </section>
+    <!-- Hero Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-5xl font-bold text-gray-900 mb-6">Turn Messages into Results</h1>
+            <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">Win new opportunities with the #1 WhatsApp business assistant platform that helps manage your schedule, tasks, and communications.</p>
+            <button class="bg-yellow-400 px-8 py-3 rounded-md font-medium text-lg hover:bg-yellow-500 transition-colors">Start Free Trial</button>
+        </div>
+    </section>
 
-        <section id="contact" class="bg-blue-100 p-8 rounded-lg mb-12">
-            <h3 class="text-2xl font-semibold mb-4">Stay Updated</h3>
-            <p class="mb-4">Subscribe to receive updates about our service. By subscribing, you consent to receive messages from us:</p>
-            <form class="flex flex-col md:flex-row gap-4">
-                <input type="email" placeholder="Enter your email" class="flex-grow p-2 rounded" required>
-                <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-300">Subscribe</button>
+    <!-- Features Grid -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Schedule with AI</h3>
+                    <p class="text-gray-600">Automatically manage your calendar with natural language processing.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Smart Notes</h3>
+                    <p class="text-gray-600">Create and organize notes with voice messages or text.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Task Manager</h3>
+                    <p class="text-gray-600">Set and track reminders with intelligent follow-ups.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Analytics</h3>
+                    <p class="text-gray-600">Track your productivity with detailed insights.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Trusted by Thousands</h2>
+                <p class="text-gray-600">We follow WhatsApp's business guidelines to ensure secure and compliant service</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-gray-900 mb-2">24/7</div>
+                    <p class="text-gray-600">Response Time</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-gray-900 mb-2">100%</div>
+                    <p class="text-gray-600">Data Protected</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-gray-900 mb-2">10k+</div>
+                    <p class="text-gray-600">Happy Users</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-20 bg-gray-900 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-8">Get Started Today</h2>
+            <p class="text-xl mb-8">Join thousands of users who trust Cachurros with their daily tasks</p>
+            <form class="max-w-md mx-auto">
+                <div class="flex gap-4">
+                    <input type="tel" placeholder="Enter your WhatsApp number" class="flex-1 px-4 py-3 rounded-md text-gray-900">
+                    <button type="submit" class="bg-yellow-400 px-6 py-3 rounded-md font-medium hover:bg-yellow-500 transition-colors text-gray-900">Try It Free</button>
+                </div>
+                <p class="text-sm mt-4 text-gray-400">By signing up, you agree to our terms and privacy policy. You can opt out anytime.</p>
             </form>
-            <p class="text-sm text-gray-600 mt-2">You can unsubscribe at any time. We respect your privacy and follow WhatsApp's business messaging guidelines.</p>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <footer class="bg-gray-800 text-white py-8">
-        <div class="container mx-auto text-center">
-            <p class="mb-2">Cachurros follows WhatsApp's Business Policy to ensure quality service and user privacy.</p>
-            <p>&copy; 2025 Cachurros. All rights reserved.</p>
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Cachurros</h4>
+                    <p class="text-gray-600">Your WhatsApp personal assistant</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Product</h4>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><a href="#" class="hover:text-gray-900">Features</a></li>
+                        <li><a href="#" class="hover:text-gray-900">Integrations</a></li>
+                        <li><a href="#" class="hover:text-gray-900">Security</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><a href="#" class="hover:text-gray-900">Blog</a></li>
+                        <li><a href="#" class="hover:text-gray-900">Help Center</a></li>
+                        <li><a href="#" class="hover:text-gray-900">Guides</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>support@cachurros.com</li>
+                        <li>+1 (555) 123-4567</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-200 mt-12 pt-8 text-center text-gray-600">
+                <p>&copy; 2025 Cachurros. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 </body>
